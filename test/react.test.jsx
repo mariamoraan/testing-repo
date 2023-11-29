@@ -21,7 +21,6 @@ describe('Calculator', () => {
     it('Should render 4 rows', () => {
         render(<Calculator />)
         const rows = screen.getAllByRole('row')
-        console.log(rows)
         expect(rows.length).toBe(4)
     })
     it('Should render operations', () => {

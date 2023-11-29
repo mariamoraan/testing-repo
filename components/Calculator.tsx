@@ -18,7 +18,7 @@ export const Calculator = () => {
     return (
         <section>
             <h1>Calculator</h1>
-            <input value={value} />
+            <input value={value} onChange={() => null} />
             <div role='grid'>
                 {
                     rows.map((row, index) => 
