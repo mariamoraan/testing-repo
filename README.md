@@ -66,6 +66,11 @@ For running tests:
    npm run test
 ```
 
+For check coverage:
+```sh
+   npx jest --coverage
+```
+
 For visualizing frontend elems:
 ```sh
    npm start
